@@ -1,0 +1,19 @@
+Commands learned-
+
+1) Running system operation-
+top - 
+top command displays processor activity of your Linux box and also displays tasks managed by kernel in real-time. It’ll show processor and memory are being used and other information like running processes.
+Eg - top, top -u $user_id (Display Specific User Process)
+
+vmstat - Summary information of Memory, Processes, Paging etc.
+Eg - vmstat -a (List Active and Inactive Memory), vmstat -d (Disks Statistics)
+
+lsof - 
+tcpdump -
+netstat -
+ss -
+htop -
+iotop -
+iostat - Central Processing Unit (CPU) statistics and input/output statistics for devices and partitions.
+Eg - iostat (Display CPU and I/O statistics), iostat -c/-d (Shows CPU/Disk IO stats), iostat -p sda (Shows I/O statistics only of a single device)
+
